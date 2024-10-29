@@ -1,0 +1,9 @@
+.card {
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el mouse */
+}
